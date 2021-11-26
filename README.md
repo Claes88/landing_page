@@ -1,2 +1,2 @@
 # landing_page
-Page with only html/css
+Page with only html and css to practise to create webpage layouts.
