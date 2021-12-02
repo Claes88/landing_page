@@ -16,19 +16,27 @@ body{
 
 .heading{
     background-color: #1F2937;
-    width: 1200px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     color: #ffffff;
 }
 
 .uppermid{
-    width: 1200px;
+    width: 1000px;
     background-color: #ffffff;;
     display: flex;
     flex-direction: column;
     align-items: center;
    
+}
+
+.lowermid{
+    width: 1000px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .imagemid{
@@ -53,7 +61,7 @@ body{
 }
 
 .links{
-    margin: 10px 200px 20px 200px;
+    margin: 10px 150px 20px 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -67,7 +75,7 @@ body{
     display: flex;
     flex-direction: row; 
     align-items: center;   
-    margin: 10px 200px 50px 200px;
+    margin: 10px 150px 50px 150px;
 }
 
 .image{
@@ -79,6 +87,38 @@ body{
     width: 350px;
 }
 
+.lowmidheading{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 50px 200px 0px 200px;
+}
+
+.signature{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 250px 50px 0px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.footer{
+    width: 1000px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footcontent{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 30px 50px; 
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+
 a{
     color: #ffffff;
     padding: 0px 10px;
@@ -87,12 +127,12 @@ a{
 
 .image_1{
     height: 200px;
-    width: 400px; 
+    width: 350px; 
 }
 
 .image_2{
-    height: 130px;
-    width: 130px; 
+    height: 100px;
+    width: 100px; 
     border-radius: 8px;
 }
 
@@ -102,7 +142,7 @@ h1{
     color: #F9FAF8;
 }
 
-button{
+.headbutton{
     padding: 5px 15px;
     background-color: #3882F6;
     color: #ffffff;
@@ -113,6 +153,15 @@ h2{
     margin-top: 40px;
     font-size: 30px;
     font-weight: bolder;
+    font-style: italic;
+}
+
+p{
+    margin: 0px;
+}
+
+h6{
+    margin: 0px;
 }
 
 
