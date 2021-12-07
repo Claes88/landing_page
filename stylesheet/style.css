@@ -34,10 +34,11 @@ body{
 
 .lowermid{
     width: 1000px;
+    height:300px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
 }
 
 .imagemid{
@@ -85,6 +86,7 @@ body{
 
 .webtext{
     width: 350px;
+    margin: 0px 5px;
 }
 
 .lowmidheading{
